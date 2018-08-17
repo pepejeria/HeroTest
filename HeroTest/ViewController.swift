@@ -1,15 +1,6 @@
 import UIKit
 import Hero
 
-class ViewController: UIViewController {
-
-    @IBAction func buttonTapped(_ sender: Any) {
-        let navigation = CustomNavigationController()
-        present(navigation, animated: true)
-    }
-
-}
-
 class CustomNavigationController: UINavigationController {
 
     override func viewDidLoad() {
